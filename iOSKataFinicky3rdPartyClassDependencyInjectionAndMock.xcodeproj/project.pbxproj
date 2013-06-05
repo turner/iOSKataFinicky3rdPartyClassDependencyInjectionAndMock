@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC9861963B9EB467C0EC48DB /* FinickyCoordinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC986BADE9025F948A8FA239 /* FinickyCoordinatorTests.m */; };
 		CC9861F2B2BA73566067D229 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC986608F3C27072F9BD2F17 /* Default@2x.png */; };
 		CC986338D0A232C39613B3EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC986E34583AE501B1A94080 /* CoreGraphics.framework */; };
 		CC98633BF5B5AE565E8A2CB0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9864F3AD0D37DB0A25A810 /* Default.png */; };
@@ -18,10 +19,12 @@
 		CC986534EB836FEE1DF11DA9 /* EIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9861F991E12243DF104F7C /* EIViewController.m */; };
 		CC9869042A15BBE8749F79AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC986DCEEFA8E429467F200B /* Foundation.framework */; };
 		CC986AE992DEA007FD5991B4 /* EIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC98639A170AE9B0201303B1 /* EIAppDelegate.m */; };
+		CC986DC43C523F8F00633277 /* FinickyThirdPartyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9867DA433291F8D17294EE /* FinickyThirdPartyApp.m */; };
 		CC986E043DBDDADAE6CA772C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC9862BA23CF53F6B08D6980 /* InfoPlist.strings */; };
 		CC986E2C8559D608A0D6B95F /* SanityCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC986B25D69059C872B9B0E3 /* SanityCheckTests.m */; };
 		CC986E4EAD18F2554B43BA1F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9869FD458A8CFF79E09E77 /* SenTestingKit.framework */; };
 		CC986F0550E87DA8832E2C2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC98694692E71603000A7698 /* Default-568h@2x.png */; };
+		CC986F2D2BBBECF27ED5D859 /* FinickyCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9866946F53B67C2AEFA85E /* FinickyCoordinator.m */; };
 		CC986F2F0EF79D8526E6E94E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC986FA06F260689DDEB8013 /* UIKit.framework */; };
 		CC986FEBC6074F68622F746A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC986749C885E4ABFB315FAE /* libOCMock.a */; };
 /* End PBXBuildFile section */
@@ -47,23 +50,29 @@
 		CC9864FADA7F9D91386FA03B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CC9865610742FC76DE0CB25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC986608F3C27072F9BD2F17 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CC9866946F53B67C2AEFA85E /* FinickyCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinickyCoordinator.m; sourceTree = "<group>"; };
 		CC9866A542045288D5093A4A /* EIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIViewController.h; sourceTree = "<group>"; };
+		CC9866BC35F280F06BA688BE /* IFinickyWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFinickyWrapper.h; sourceTree = "<group>"; };
 		CC986749C885E4ABFB315FAE /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Lib/OCMock/iOS/libOCMock.a; sourceTree = "<group>"; };
 		CC9867607D4F2E70DB840D8B /* iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9867DA433291F8D17294EE /* FinickyThirdPartyApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinickyThirdPartyApp.m; sourceTree = "<group>"; };
 		CC986884CBA5314FF4F0EC19 /* iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests-Info.plist"; sourceTree = "<group>"; };
 		CC9868A4B3961B396A7B27A8 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		CC98694692E71603000A7698 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CC986982F96DD09C96DDED4B /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		CC9869FD458A8CFF79E09E77 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CC986A6DBAFBD2E8C42CE436 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		CC986A91FBACC2EAFF437613 /* FinickyCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinickyCoordinator.h; sourceTree = "<group>"; };
 		CC986B25D69059C872B9B0E3 /* SanityCheckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTests.m; sourceTree = "<group>"; };
 		CC986B74C72598E21D064B33 /* EIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIAppDelegate.h; sourceTree = "<group>"; };
 		CC986B8B3349F66CC576544A /* iOSKataFinicky3rdPartyClassDependencyInjectionAndMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKataFinicky3rdPartyClassDependencyInjectionAndMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC986B8F37DAB4BC49D9AB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC986BADE9025F948A8FA239 /* FinickyCoordinatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinickyCoordinatorTests.m; sourceTree = "<group>"; };
 		CC986C8D53377C565F704A24 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		CC986D2F297C7A7FC1406A94 /* iOSKataFinicky3rdPartyClassDependencyInjectionAndMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSKataFinicky3rdPartyClassDependencyInjectionAndMock-Prefix.pch"; sourceTree = "<group>"; };
 		CC986DCEEFA8E429467F200B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC986E34583AE501B1A94080 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC986E6482FAFE5A00A71CC1 /* FinickyThirdPartyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinickyThirdPartyApp.h; sourceTree = "<group>"; };
 		CC986E6A9827415B337D89DF /* ISanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheck.h; sourceTree = "<group>"; };
 		CC986FA06F260689DDEB8013 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -98,6 +107,7 @@
 			children = (
 				CC986BB4AB7C48BA5E9417EC /* Supporting Files */,
 				CC986B25D69059C872B9B0E3 /* SanityCheckTests.m */,
+				CC986BADE9025F948A8FA239 /* FinickyCoordinatorTests.m */,
 			);
 			path = iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests;
 			sourceTree = "<group>";
@@ -204,6 +214,11 @@
 				CC9866A542045288D5093A4A /* EIViewController.h */,
 				CC9861F991E12243DF104F7C /* EIViewController.m */,
 				CC986E6A9827415B337D89DF /* ISanityCheck.h */,
+				CC9866BC35F280F06BA688BE /* IFinickyWrapper.h */,
+				CC9866946F53B67C2AEFA85E /* FinickyCoordinator.m */,
+				CC986A91FBACC2EAFF437613 /* FinickyCoordinator.h */,
+				CC9867DA433291F8D17294EE /* FinickyThirdPartyApp.m */,
+				CC986E6482FAFE5A00A71CC1 /* FinickyThirdPartyApp.h */,
 			);
 			path = iOSKataFinicky3rdPartyClassDependencyInjectionAndMock;
 			sourceTree = "<group>";
@@ -318,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC986E2C8559D608A0D6B95F /* SanityCheckTests.m in Sources */,
+				CC9861963B9EB467C0EC48DB /* FinickyCoordinatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +344,8 @@
 				CC986433809A8E0D30510128 /* main.m in Sources */,
 				CC986AE992DEA007FD5991B4 /* EIAppDelegate.m in Sources */,
 				CC986534EB836FEE1DF11DA9 /* EIViewController.m in Sources */,
+				CC986F2D2BBBECF27ED5D859 /* FinickyCoordinator.m in Sources */,
+				CC986DC43C523F8F00633277 /* FinickyThirdPartyApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
