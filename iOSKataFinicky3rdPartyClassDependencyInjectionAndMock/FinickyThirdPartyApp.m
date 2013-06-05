@@ -10,7 +10,9 @@
 
 @implementation FinickyThirdPartyApp
 - (NSString *)doSomethingProprietary {
+
     [NSException raise:@"I'm FINICKY about licensing on dev machines! You can't use me, dev!" format:@""];
+
 }
 
 @end

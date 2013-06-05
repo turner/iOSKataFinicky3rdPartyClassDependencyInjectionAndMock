@@ -8,10 +8,12 @@
 
 #import "FinickyCoordinator.h"
 #import "IFinickyWrapper.h"
+#import "FinickyThirdPartyApp.h"
 
 
 @implementation FinickyCoordinator {
 
+    id <IFinickyWrapper> _finickyWrapper;
 }
 - (id)initWithFinickyWrapper:(id <IFinickyWrapper>)finickyWrapper {
 
@@ -19,9 +21,17 @@
     if (nil != self) {
 
         // do stuff
-
+        _finickyWrapper = finickyWrapper;
     }
 
     return self;
 }
+
+-(NSString *)doCustomAction {
+//    FinickyThirdPartyApp *finickyThirdPartyApp = [[FinickyThirdPartyApp alloc] init];
+//    return [finickyThirdPartyApp doSomethingProprietary];
+
+    return [_finickyWrapper doSomethingProprietary];
+}
+
 @end

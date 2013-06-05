@@ -7,11 +7,11 @@
     <file path="/fragment.mm" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370431905277" ignored="false" />
     <file path="/SanityCheckTests.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370432647100" ignored="false" />
     <file path="/ISanityCheck.h" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370432579532" ignored="false" />
-    <file path="/FinickyCoordinatorTests.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370435117569" ignored="false" />
+    <file path="/FinickyCoordinatorTests.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370436658007" ignored="false" />
     <file path="/IFinickyWrapper.h" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370433901682" ignored="false" />
     <file path="/fragment.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370434211475" ignored="false" />
-    <file path="/FinickyCoordinator.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370434295126" ignored="false" />
-    <file path="/FinickyThirdPartyApp.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370434633444" ignored="false" />
+    <file path="/FinickyCoordinator.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370436498748" ignored="false" />
+    <file path="/FinickyThirdPartyApp.m" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370435490522" ignored="false" />
     <file path="/FinickyThirdPartyApp.h" changelist="91c2f98f-4522-4e67-b69c-45e360fab62a" time="1370434555447" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +32,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FinickyCoordinatorTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FinickyCoordinator.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinickyCoordinator.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.8736702">
+              <folding>
+                <element signature="e#189#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinickyCoordinatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests/FinickyCoordinatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="83" selection-start="583" selection-end="658" vertical-scroll-proportion="0.3257979">
+            <state line="42" column="0" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#33#72#0" expanded="true" />
               </folding>
@@ -46,7 +66,7 @@
       <file leaf-file-name="FinickyThirdPartyApp.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyThirdPartyApp.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="93" selection-start="322" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,10 +94,10 @@
         <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/ISanityCheck.h" />
         <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests/SanityCheckTests.m" />
         <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/IFinickyWrapper.h" />
-        <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.m" />
-        <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.h" />
         <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyThirdPartyApp.h" />
         <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyThirdPartyApp.m" />
+        <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.h" />
+        <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.m" />
         <option value="$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests/FinickyCoordinatorTests.m" />
       </list>
     </option>
@@ -164,7 +184,7 @@
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" />
   </component>
-  <component name="RunManager" selected="OCUnit.-[FinickyCoordinatorTests test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException]">
+  <component name="RunManager" selected="OCUnit.All Tests">
     <configuration default="false" name="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" PROJECT_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" TARGET_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" RUN_TARGET_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
@@ -178,6 +198,18 @@
       <method />
     </configuration>
     <configuration default="false" name="-[FinickyCoordinatorTests test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[FinickyCoordinatorTests test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException]" PROJECT_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" TARGET_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="FinickyCoordinatorTests" TEST_METHOD="test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[FinickyCoordinatorTests test_GivenSUT_WhenCustomMethodCalled_ThenReturnsExpectedString]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[FinickyCoordinatorTests test_GivenSUT_WhenCustomMethodCalled_ThenReturnsExpectedString]" PROJECT_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" TARGET_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="FinickyCoordinatorTests" TEST_METHOD="test_GivenSUT_WhenCustomMethodCalled_ThenReturnsExpectedString">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[FinickyCoordinatorTests test_GivenSUT_WhenInstantiatedWithNoDIAndCustomActionCalled_ThenReturnExpectedString]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[FinickyCoordinatorTests test_GivenSUT_WhenInstantiatedWithNoDIAndCustomActionCalled_ThenReturnExpectedString]" PROJECT_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" TARGET_NAME="iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="FinickyCoordinatorTests" TEST_METHOD="test_GivenSUT_WhenInstantiatedWithNoDIAndCustomActionCalled_ThenReturnExpectedString">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
@@ -197,17 +229,21 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="OCUnit.All Tests" />
       <item index="1" class="java.lang.String" itemvalue="Application.iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" />
       <item index="2" class="java.lang.String" itemvalue="OCUnit.-[SanityCheckTests testSanityCheck_OCMock]" />
       <item index="3" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException]" />
+      <item index="4" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_GivenSUT_WhenCustomMethodCalled_ThenReturnsExpectedString]" />
+      <item index="5" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_GivenSUT_WhenInstantiatedWithNoDIAndCustomActionCalled_ThenReturnExpectedString]" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException]" />
-        <item index="1" class="java.lang.String" itemvalue="OCUnit.-[SanityCheckTests testSanityCheck_OCMock]" />
-        <item index="2" class="java.lang.String" itemvalue="Application.iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_GivenSUT_WhenInstantiatedWithNoDIAndCustomActionCalled_ThenReturnExpectedString]" />
+        <item index="1" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_GivenSUT_WhenCustomMethodCalled_ThenReturnsExpectedString]" />
+        <item index="2" class="java.lang.String" itemvalue="OCUnit.-[FinickyCoordinatorTests test_FinickyThirdParty_Calls_doSomethingProprietary_ThrowsExpectedException]" />
+        <item index="3" class="java.lang.String" itemvalue="OCUnit.-[SanityCheckTests testSanityCheck_OCMock]" />
+        <item index="4" class="java.lang.String" itemvalue="Application.iOSKataFinicky3rdPartyClassDependencyInjectionAndMock" />
       </list>
     </recent_temporary>
   </component>
@@ -332,22 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="459" selection-end="459" vertical-scroll-proportion="0.58111703">
-          <folding>
-            <element signature="e#189#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/ISanityCheck.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.32845744">
@@ -371,16 +391,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyThirdPartyApp.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="93" selection-start="322" selection-end="392" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMockTests/FinickyCoordinatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="83" selection-start="583" selection-end="658" vertical-scroll-proportion="0.3257979">
+        <state line="42" column="0" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#33#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSKataFinicky3rdPartyClassDependencyInjectionAndMock/FinickyCoordinator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.8736702">
+          <folding>
+            <element signature="e#189#219#0" expanded="true" />
           </folding>
         </state>
       </provider>

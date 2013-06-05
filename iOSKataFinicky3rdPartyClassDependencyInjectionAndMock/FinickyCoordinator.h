@@ -10,7 +10,7 @@
 
 @protocol IFinickyWrapper;
 
-
 @interface FinickyCoordinator : NSObject
 - (id)initWithFinickyWrapper:(id <IFinickyWrapper>)finickyWrapper;
+- (NSString *)doCustomAction;
 @end
